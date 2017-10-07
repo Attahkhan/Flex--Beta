@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Entities.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>Source\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Source\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaInfo.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAim.cpp">
+      <Filter>Source\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Autowall.cpp">
+      <Filter>Source\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Chams.cpp">
+      <Filter>Source\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks.cpp">
+      <Filter>Source\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Source\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="LegitBot.cpp">
+      <Filter>Source\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscHacks.cpp">
+      <Filter>Source\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="RageBot.cpp">
+      <Filter>Source\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Visual.cpp">
+      <Filter>Source\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Resolver.cpp">
+      <Filter>Source\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="INJ\ReflectiveLoader.cpp">
+      <Filter>Source\Injection</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls.cpp">
+      <Filter>Source\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Source\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Source\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Dumping.cpp">
+      <Filter>Source\Sourve Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>Source\Sourve Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>Source\Sourve Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC32.cpp">
+      <Filter>Source\Sourve Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="MathFunctions.cpp">
+      <Filter>Source\Sourve Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVarManager.cpp">
+      <Filter>Source\Sourve Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVars.cpp">
+      <Filter>Source\Sourve Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SpoofedConvar.cpp">
+      <Filter>Source\Sourve Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="UTIL Functions.cpp">
+      <Filter>Source\Sourve Engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="KnifeChanger.cpp">
+      <Filter>Source\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="HitMarker.cpp">
+      <Filter>Source\Hacks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AntiLeak.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Autowall.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClient.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="bspflags.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Chams.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientRecvProps.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonIncludes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC32.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLMain.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Dumping.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineClient.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISPEC.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="KnifeChanger.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LegitBot.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MathFunctions.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaInfo.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscClasses.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscDefinitions.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscHacks.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVars.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RageBot.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="INJ\ReflectiveDLLInjection.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="INJ\ReflectiveLoader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Xor2.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Xor.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="winwindef.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolver.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="HitMarker.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="pskin.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationFix.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="UTIL Functions.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="hooks.backup" />
+    <None Include="ClassDiagram1.cd">
+      <Filter>Headers</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{9a694069-2f64-438d-8698-dbc35830e978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{e6abf1c6-4af5-4b10-add4-ff90159c5e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Backend">
+      <UniqueIdentifier>{34543c75-3841-4259-8bb5-69c374739e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common">
+      <UniqueIdentifier>{17c7ecfd-7310-431e-a58e-1e56db9b57df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Hacks">
+      <UniqueIdentifier>{f76ebd32-b803-4287-8a70-688440abc6f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Injection">
+      <UniqueIdentifier>{7e2f5ab4-00b3-4a29-b613-4b35ee5c61f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Menu">
+      <UniqueIdentifier>{2a76dc38-21cf-4a2c-a624-83420464d634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sourve Engine">
+      <UniqueIdentifier>{5c67942e-cd4e-4a5e-b838-570db1b7d90f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utilities">
+      <UniqueIdentifier>{508ac22b-256f-44b0-a27c-0e0417d436f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sourve Engine\Utilities">
+      <UniqueIdentifier>{e1dc29c1-f35c-4253-9a97-51bd8f2d9b77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
